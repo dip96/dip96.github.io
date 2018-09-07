@@ -628,6 +628,7 @@
  .header_items3 a {
         border-bottom: none;
     }
+.article_header {margin: 0 auto;}
  @media screen and (max-width: 1070px){
 	 .tab_head {display: block;}
 	  .tab_head ul {
