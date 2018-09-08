@@ -199,7 +199,7 @@
  .main-right {
      flex: 0 0 66.666667%;
      max-width: 66.666667%;
-     margin-left: 50px;
+     margin-left: 2%;
 }
  .crumbs {
      font-size: 12px !important;
@@ -668,6 +668,11 @@
     .main-left {
         display: none;
     }
+	     .main-right {
+        max-width: 90%;
+         flex: none;
+		 margin-left: 5% !important;
+    }
 }
  @media screen and (max-width: 900px){
 	 footer .vis_footer .icons_footer {padding: 0;}
@@ -678,10 +683,7 @@
      margin: 0 auto;
     }
 
-     .main-right {
-        max-width: 90%;
-         flex: none;
-    }
+
      .headerRowAdaptive {
         margin: 0;
     }

@@ -37,37 +37,36 @@
     position: relative;
      right: 15px;
 }
- body {
-     background-color:#EBF5FC;
-     font-family: Arial , sans-serif;
-}
- .img {
-    vertical-align: middle;
-     border-style: none;
-}
- .menu_content ul {
-    list-style-type: none;
-}
+
+.img {vertical-align: middle; border-style: none; }
+
+
+
+ body {background-color:#EBF5FC; font-family: Arial , sans-serif; }
+/* HEADER*/
+.wrapper { width: 70%; margin: 0 auto; }
+ header {padding-left: 1.5rem!important; padding-right: 1.5rem!important; padding-top: 1.5rem!important; margin-top: 1.5rem!important; background-color: #fff; border-radius: 10px 10px 0 0; border-bottom: 1px solid #DBDBDB; }
+
+.main_content { margin-bottom: 1.5rem!important; background-color: #fff; border-radius: 0px 0px 10px 10px; padding-left: 5% !important;}
+.row_content {display: flex;}
+.main-left { margin-left: -2%;}
+.menu_content {border: 1px solid #DBDBDB;line-height: 25px;width: 85%;padding-top: 1rem!important;}
+.menu_content ul {  list-style-type: none; }
+.reviews {  padding-left: 15px;  background-color: #F9F9F9;  padding-top: 3rem!important;  padding-bottom: 1.5rem!important;  margin-top: 3rem!important;  padding-right: 15px; }
+ .reviews_header {  margin-left: 1.5rem!important;  margin-bottom: 1rem!important; }
+ .reviews_body {  margin-left: -0.5rem!important;  margin-right: -0.5rem!important; }
+ .reviews_body .item {  background-color: #fff;  border: 3px solid #DFF7F7;  border-radius: 6px;  padding: 1.5rem!important; }
+ .reviews_body .item_2 {  text-align: right!important;  margin-bottom: 1rem!important;  margin-right: 1rem!important;  margin-top: 1rem!important; }
+ .contacts {  background-color: #F9F9F9; }
+ .contactsInner {  background-color: #fff;  border: 8px solid #E1F7F7;  padding-bottom: 3rem!important;  padding-top: 3rem!important;  margin-left: 2rem!important;  margin-bottom: 1rem!important;  margin-right: 2rem!important; }
+ .contacts_header {  margin-left: 1rem!important;  margin-bottom: 1.5rem!important; }
+
  .itemWebSite a {
     font-size: 12px !important;
 }
-/* HEADER*/
- .wrapper {
-     width: 70%;
-     margin: 0 auto;
-}
+
 .article_header {margin: 0 auto;}
  header.container {
-     background-color: #fff;
-     border-radius: 10px 10px 0 0;
-     border-bottom: 1px solid #DBDBDB;
-}
- header {
-     padding-bottom: 0 !important;
-     padding-left: 1.5rem!important;
-     padding-right: 1.5rem!important;
-     padding-top: 1.5rem!important;
-     margin-top: 1.5rem!important;
      background-color: #fff;
      border-radius: 10px 10px 0 0;
      border-bottom: 1px solid #DBDBDB;
@@ -122,25 +121,7 @@
      flex-wrap: wrap;
 }
 /* CONTENT */
- .main_content {
-     margin-bottom: 1.5rem!important;
-     background-color: #fff;
-     border-radius: 0px 0px 10px 10px;
-	 padding-left: 5% !important;
-}
 
- .main-left {
-    flex: 0 0 33.333333%;
-     max-width: 27.333333%;
-     margin-left: -2%;
-}
- .menu_content {
-    border: 1px solid #DBDBDB;
-     line-height: 25px;
-     width: 85%;
-     padding-bottom: 1rem!important;
-     padding-top: 1rem!important;
-}
  .li_content {
     margin-bottom: .5rem!important;
 }
@@ -148,21 +129,8 @@
     color: #6F4221;
      font-size: 20px;
 }
- .reviews {
-     background-color: #F9F9F9;
-     padding-top: 3rem!important;
-     padding-bottom: 1.5rem!important;
-     margin-top: 3rem!important;
-}
- .reviews_header {
-    margin-left: 1.5rem!important;
-     margin-bottom: 1rem!important;
-}
  .reviews_header i {
      color: #FF8900;
-}
- .contacts {
-    background-color: #F9F9F9;
 }
  .contacts h4 {
     font-size: 16px;
@@ -172,19 +140,6 @@
  .contacts h4 i {
      color: #000;
      margin-left: .5rem!important;
-}
- .contactsInner {
-     background-color: #fff;
-    border: 8px solid #E1F7F7;
-     padding-bottom: 3rem!important;
-     padding-top: 3rem!important;
-     margin-left: 2rem!important;
-     margin-bottom: 1rem!important;
-     margin-right: 2rem!important;
-}
- .contacts_header {
-    margin-left: 1rem!important;
-     margin-bottom: 1.5rem!important;
 }
  .contacts_body {
      padding-left: 1rem!important;
@@ -306,7 +261,7 @@
      margin-bottom: 30px;
      line-height: 50px;
 }
-.row_content {display: flex;}
+
  .orderHealing {
      color: #53B0CA;
      border: 2px solid #53B0CA;
@@ -395,44 +350,13 @@
  .reviewsAdaptive, .contactsAdaptive {
      display: none;
 }
- .reviews {
-     padding-left: 15px;
-     background-color: #F9F9F9;
-     padding-top: 3rem!important;
-     padding-bottom: 1.5rem!important;
-     margin-top: 3rem!important;
-     padding-right: 15px;
-}
- .reviews_header {
-    margin-left: 1.5rem!important;
-     margin-bottom: 1rem!important;
-}
- .reviews_body {
-     margin-left: -0.5rem!important;
-     margin-right: -0.5rem!important;
-}
- .reviews_body .item {
-     background-color: #fff;
-     border: 3px solid #DFF7F7;
-     border-radius: 6px;
-    padding: 1.5rem!important;
-}
  .item_2 {
     margin: 15px;
-}
- .reviews_body .item_2 {
-    text-align: right!important;
-     margin-bottom: 1rem!important;
-     margin-right: 1rem!important;
-     margin-top: 1rem!important;
 }
  .small, small {
      font-size: 80%;
      font-weight: 400;
      margin-left: 30%;
-}
- .contacts {
-     background-color: #F9F9F9;
 }
  footer {
      padding-top: 3rem!important;
@@ -543,7 +467,11 @@
 .tab_head {display: none;}
 	.header_items3 a {border-bottom: none;}
 	.h1_text {font-size: 30px;}
+	 @media screen and (max-width: 1200px){
+		.headerPrice_order {display: block;}
+	 }
  @media screen and (max-width: 1070px){
+	 .orderHealing {padding: 5px 14px;}
 	.tab_head {display: block;}
 	 .tab_head ul li {
     float: left;
@@ -575,6 +503,11 @@
      .main-left {
         display: none;
     }
+	.main-right {
+        max-width: 95%;
+        margin: 0;
+		margin-left: 15%;
+    }
 }
  @media screen and (max-width: 900px){
 	 footer .vis_footer .icons_footer {padding: 0;}
@@ -582,10 +515,7 @@
         width: 90%;
          margin: 0 auto;
     }
-     .main-right {
-        max-width: 95%;
-        margin: 0;
-    }
+     
      .headerRowAdaptive {
         margin: 0;
     }
@@ -602,6 +532,7 @@
 	.phoneNumber p {display: inline;}
 }
  @media screen and (max-width: 800px){
+	 .orderHealing {padding: 5px 0;}
 	 header {padding: 1.5rem 0 0 0 !important;}
      .scrollup {
          position: fixed;
@@ -649,7 +580,7 @@
 	.headerPrice_order2 {
 		margin: 0 auto;
 	}
-	.orderHealing {padding: 5px 22px;}
+	
      .headerPrice {
         width: 100%;
 		 margin: 0;
